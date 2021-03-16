@@ -16,7 +16,7 @@ import com.util.FieldValidator;
 public class RegisterNewUser extends HttpServlet {
 	public void doPost(HttpServletRequest request, HttpServletResponse response,String date,String month, String year) throws IOException{
 		String id=request.getParameter("id");
-		String yourname=request.getParameter("fname");
+		String fname=request.getParameter("fname");
 		String lname=request.getParameter("lname");
 		String password=request.getParameter("pwd");
 		String gender=request.getParameter("gender");
